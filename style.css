@@ -78,7 +78,7 @@ h1{
 /*GALLERIA*/
 .flex-galleria{
     display: flex;
-    height: 20rem;
+    height: 13rem;
     justify-content: space-evenly;
     margin-right: 2rem;
     margin-left: 2rem;
@@ -114,7 +114,6 @@ h1{
     margin-left: 1rem;
     margin-bottom: 3rem;
     max-width:90%;
-    height:90%;
 }
 
 /*VR MARSHALL EXTRA*/
