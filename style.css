@@ -79,7 +79,9 @@ h1{
 .flex-galleria{
     display: flex;
     height: 13rem;
+    max-height: 13rem;
     justify-content: space-evenly;
+    /*flex-wrap*/
     margin-right: 2rem;
     margin-left: 2rem;
     background-color: #FFFFFF;
@@ -170,6 +172,22 @@ h1{
     text-decoration: none;
 }
 
+/*PROVE INTERAZIONE*/
+/*cambio colore link al passaggio del cursore*/
+nav a:hover{
+    color:#222F3E;
+    background-color:#EAEDED;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px 1px #cee1e4;
+}
+
+.link-color:hover{
+    color:#FFFFFF;
+    background-color:#187c8e;
+    border-radius: 2px;
+    box-shadow: 2px 2px 12px 4px #68b4c1;
+    padding: 6px; 
+}
 
 
 
